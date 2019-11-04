@@ -30,10 +30,10 @@
 
 # configuration through environment variables
 Twitter:
-  access_token: '758619812927004672-uASmHfzqg0BdD1MhlHMERjuj6vgaLgT'
-  access_token_secret: 'YwS6Q2YZadBV3uWSBXgU4bfUHT7HIqKAG9nQKZHIsF7HE '
-  consumer_key: 'Dyn9JpNX8DU9vlaKDS3CkoHI9',
-  consumer_secret: 'DQFomVzY3Ywt1a3W2F4bmibXmD13raMPREai7ZVIiY6mKnuqxX'
+  access_token: 758619812927004672-uASmHfzqg0BdD1MhlHMERjuj6vgaLgT
+  access_token_secret: YwS6Q2YZadBV3uWSBXgU4bfUHT7HIqKAG9nQKZHIsF7HE
+  consumer_key: Dyn9JpNX8DU9vlaKDS3CkoHI9
+  consumer_secret: DQFomVzY3Ywt1a3W2F4bmibXmD13raMPREai7ZVIiY6mKnuqxX
 
 Discord:
   - IncludeReplyToUser: 'False'
