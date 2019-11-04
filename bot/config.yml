@@ -30,24 +30,24 @@
 
 # configuration through environment variables
 Twitter:
-  access_token: ${ACCESS_TOKEN}
-  access_token_secret: ${ACCESS_TOKEN_SECRET}
-  consumer_key: ${CONSUMER_KEY}
-  consumer_secret: ${CONSUMER_SECRET}
+  access_token: ${'758619812927004672-uASmHfzqg0BdD1MhlHMERjuj6vgaLgT'}
+  access_token_secret: ${'YwS6Q2YZadBV3uWSBXgU4bfUHT7HIqKAG9nQKZHIsF7HE '}
+  consumer_key: ${'Dyn9JpNX8DU9vlaKDS3CkoHI9'}
+  consumer_secret: ${'DQFomVzY3Ywt1a3W2F4bmibXmD13raMPREai7ZVIiY6mKnuqxX'}
 
 Discord:
-  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER!b}
-    IncludeRetweet: ${INCLUDE_RETWEET!b}
-    IncludeUserReply: ${INCLUDE_USER_REPLY!b}
-    custom_message: ${CUSTOM_MESSAGE}
-    keyword_sets: ${KEYWORDS!ll}
-    blackword_sets: ${BLACKWORDS!ll}
-    twitter_ids: ${TWITTER_ID!l}
-    twitter_handles: ${TWITTER_HANDLE!l}
+  - IncludeReplyToUser: ${'False'}
+    IncludeRetweet: ${'False'}
+    IncludeUserReply: ${'False'}
+    custom_message: ${'a New Feed'}
+    keyword_sets: ${'Gotcha Pokemon'}
+    blackword_sets: ${'Moba'}
+    twitter_ids: ${'75861981292700467'}
+    twitter_handles: ${'discordapp'}
     twitter_lists: ${TWITTER_LIST!l}
-    track: ${TRACK!l}
-    location: ${LOCATION!fl}
-    webhook_urls: ${WEBHOOK_URL!wh}
+    track: ${'python'}
+    location: ${'[106.405897,10.526054,106.999159,11.027906]'}
+    webhook_urls: ${'https://discordapp.com/api/webhooks/606404249055920153/LQvZyvs0UVOriq2V_zm26mGa52whUUWVGmvaZhm_gtrTdGt53MG3L1dzoke4wt9v4TsQ'}
 
   - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_2!b}
     IncludeRetweet: ${INCLUDE_RETWEET_2!b}
